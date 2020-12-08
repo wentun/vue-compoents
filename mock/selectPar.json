@@ -1,0 +1,374 @@
+{
+    "return_code": 0,
+    "return_msg": "OK",
+    "data": {
+        "departments": [
+            {
+                "id": 28600,
+                "name": "第一部门"
+            },
+            {
+                "id": 28601,
+                "name": "第二部门"
+            },
+            {
+                "id": 28603,
+                "name": "第三部门"
+            },
+            {
+                "id": 28604,
+                "name": "第四部门"
+            },
+            {
+                "id": 28605,
+                "name": "第五部门"
+            },
+            {
+                "id": 28607,
+                "name": "第六部门"
+            }
+        ],
+        "centers": [
+            {
+                "department_id": 28604,
+                "id": 28675,
+                "name": "第一中心"
+            },
+            {
+                "department_id": 28603,
+                "id": 28645,
+                "name": "第二中心"
+            },
+            {
+                "department_id": 28603,
+                "id": 28646,
+                "name": "第三中心"
+            },
+            {
+                "department_id": 28603,
+                "id": 28643,
+                "name": "第四中心"
+            },
+            {
+                "department_id": 28603,
+                "id": 28644,
+                "name": "第五中心"
+            },
+            {
+                "department_id": 28600,
+                "id": 33597,
+                "name": "第六中心"
+            },
+            {
+                "department_id": 28601,
+                "id": 31229,
+                "name": "第七中心"
+            },
+            {
+                "department_id": 28601,
+                "id": 28628,
+                "name": "第八中心"
+            },
+            {
+                "department_id": 28604,
+                "id": 28673,
+                "name": "第久中心"
+            },
+            {
+                "department_id": 0,
+                "id": 0,
+                "name": "其他"
+            }
+        ], 
+        "teams": [
+            {
+                "department_id": 28600,
+                "center_id": 33597,
+                "id": 28619,
+                "name": "第一小组"
+            },
+            {
+                "department_id": 28601,
+                "center_id": 31229,
+                "id": 28639,
+                "name": "第二小组"
+            },
+            {
+                "department_id": 28601,
+                "center_id": 28628,
+                "id": 28640,
+                "name": "第三小组"
+            },
+            {
+                "department_id": 28601,
+                "center_id": 28628,
+                "id": 28641,
+                "name": "第四小组"
+            },
+            {
+                "department_id": 28601,
+                "center_id": 28628,
+                "id": 28642,
+                "name": "第五小组"
+            },
+            {
+                "department_id": 28603,
+                "center_id": 0,
+                "id": 28647,
+                "name": "第六小组"
+            },
+            {
+                "department_id": 28603,
+                "center_id": 28643,
+                "id": 28661,
+                "name": "第七小组"
+            },
+            {
+                "department_id": 28603,
+                "center_id": 28643,
+                "id": 28662,
+                "name": "第八小组"
+            },
+            {
+                "department_id": 28603,
+                "center_id": 28644,
+                "id": 28663,
+                "name": "第九小组"
+            },
+            {
+                "department_id": 28603,
+                "center_id": 28644,
+                "id": 28664,
+                "name": "第十小组"
+            },
+            {
+                "department_id": 28603,
+                "center_id": 28644,
+                "id": 28665,
+                "name": "第十一小组"
+            },
+            {
+                "department_id": 28603,
+                "center_id": 28645,
+                "id": 28666,
+                "name": "第十二小组"
+            },
+            {
+                "department_id": 28603,
+                "center_id": 28646,
+                "id": 28667,
+                "name": "第十三小组"
+            },
+            {
+                "department_id": 28603,
+                "center_id": 28646,
+                "id": 28668,
+                "name": "第十四小组"
+            },
+            {
+                "department_id": 28603,
+                "center_id": 28646,
+                "id": 28669,
+                "name": "第十五小组"
+            },
+            {
+                "department_id": 28607,
+                "center_id": 0,
+                "id": 28679,
+                "name": "第十六小组"
+            },
+            {
+                "department_id": 28607,
+                "center_id": 0,
+                "id": 28680,
+                "name": "第十七小组"
+            },
+            {
+                "department_id": 28601,
+                "center_id": 28628,
+                "id": 30194,
+                "name": "第十八小组"
+            },
+            {
+                "department_id": 28603,
+                "center_id": 28645,
+                "id": 30201,
+                "name": "第十九小组"
+            },
+            {
+                "department_id": 28607,
+                "center_id": 0,
+                "id": 30204,
+                "name": "第二十小组"
+            },
+            {
+                "department_id": 28601,
+                "center_id": 28628,
+                "id": 33600,
+                "name": "第二一小组"
+            },
+            {
+                "department_id": 28603,
+                "center_id": 28643,
+                "id": 33602,
+                "name": "第二二小组"
+            },
+            {
+                "department_id": 28603,
+                "center_id": 28643,
+                "id": 33603,
+                "name": "第二三小组"
+            },
+            {
+                "department_id": 28603,
+                "center_id": 0,
+                "id": 33604,
+                "name": "第二四小组"
+            },
+            {
+                "department_id": 28604,
+                "center_id": 28673,
+                "id": 33611,
+                "name": "第二五小组"
+            },
+            {
+                "department_id": 28604,
+                "center_id": 28673,
+                "id": 33612,
+                "name": "第二六小组"
+            },
+            {
+                "department_id": 28604,
+                "center_id": 28673,
+                "id": 33613,
+                "name": "第二七小组"
+            },
+            {
+                "department_id": 28604,
+                "center_id": 28675,
+                "id": 33614,
+                "name": "第二八小组"
+            },
+            {
+                "department_id": 28604,
+                "center_id": 28675,
+                "id": 33615,
+                "name": "第二九小组"
+            },
+            {
+                "department_id": 28600,
+                "center_id": 33597,
+                "id": 35288,
+                "name": "第三十小组"
+            },
+            {
+                "department_id": 28600,
+                "center_id": 33597,
+                "id": 35289,
+                "name": "第三一小组"
+            },
+            {
+                "department_id": 28600,
+                "center_id": 33597,
+                "id": 35290,
+                "name": "第三二小组"
+            },
+            {
+                "department_id": 28601,
+                "center_id": 28628,
+                "id": 35320,
+                "name": "第三三小组"
+            },
+            {
+                "department_id": 28603,
+                "center_id": 28644,
+                "id": 35321,
+                "name": "第三四二小组"
+            },
+            {
+                "department_id": 28603,
+                "center_id": 28644,
+                "id": 35322,
+                "name": "第三五小组"
+            },
+            {
+                "department_id": 28603,
+                "center_id": 28644,
+                "id": 35323,
+                "name": "第三六小组"
+            },
+            {
+                "department_id": 28603,
+                "center_id": 28645,
+                "id": 38655,
+                "name": "第三七小组"
+            },
+            {
+                "department_id": 28603,
+                "center_id": 28645,
+                "id": 38656,
+                "name": "第三八小组"
+            },
+            {
+                "department_id": 28603,
+                "center_id": 28643,
+                "id": 38657,
+                "name": "第三九小组"
+            },
+            {
+                "department_id": 28603,
+                "center_id": 28646,
+                "id": 38658,
+                "name": "第四十小组"
+            },
+            {
+                "department_id": 28603,
+                "center_id": 0,
+                "id": 38659,
+                "name": "第四一小组"
+            },
+            {
+                "department_id": 28607,
+                "center_id": 0,
+                "id": 38660,
+                "name": "第四二小组"
+            },
+            {
+                "department_id": 28604,
+                "center_id": 28673,
+                "id": 38832,
+                "name": "第四三小组"
+            },
+            {
+                "department_id": 28604,
+                "center_id": 28673,
+                "id": 38833,
+                "name": "第四四小组"
+            },
+            {
+                "department_id": 28604,
+                "center_id": 28675,
+                "id": 38834,
+                "name": "第四五小组"
+            },
+            {
+                "department_id": 28604,
+                "center_id": 28675,
+                "id": 38835,
+                "name": "第四六小组"
+            },
+            {
+                "department_id": 28605,
+                "center_id": 0,
+                "id": 28678,
+                "name": "第四七小组"
+            },
+            {
+                "department_id": 28607,
+                "center_id": 0,
+                "id": 28681,
+                "name": "第四八小组"
+            }
+        ]
+    }
+}
