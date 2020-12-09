@@ -9,7 +9,7 @@ const routes = [
         component: () => import("../App.vue"),
     },
     {
-        path: "/selectExample/default",
+        path: "/selectExample/default/:id",
         component: () => import("../views/selectExample/default.vue"),
     },
     {
