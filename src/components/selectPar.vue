@@ -164,7 +164,6 @@ export default {
     methods:{
         // 获取全部数据
         async getData(){
-            console.log(123)
             const res = await http({
                 method: 'get',
                 url: '/api/test',

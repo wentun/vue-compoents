@@ -1,28 +1,35 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <selectPar />
-  </div>
+    <div id="app">
+		<el-row>
+			<el-col :span="3">
+				<leftMenu />
+			</el-col>
+			<el-col :span="21">
+				<router-view />
+			</el-col>
+		</el-row>
+
+    </div>
 </template>
 
 <script>
-import selectPar from './components/selectPar.vue'
+import leftMenu from './components/leftMenu.vue'
 
 export default {
-  name: 'App',
-  components: {
-    selectPar
-  }
+	name: 'App',
+	components: {
+		leftMenu
+	}
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+	font-family: Avenir, Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+	color: #2c3e50;
+	margin-top: 60px;
 }
 </style>
