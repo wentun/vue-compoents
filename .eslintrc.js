@@ -19,7 +19,7 @@ module.exports = {
     "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off",
     "no-param-reassign": "off",
     "template-curly-spacing": "off",
-    "max-len": ["error", { code: 300 }], // 此处为具体添加代码
+
     "space-before-function-paren": 0
   },
   parserOptions: {
