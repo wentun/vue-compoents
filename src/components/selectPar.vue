@@ -255,7 +255,6 @@ export default {
                         return decodeURIComponent(pair[1]);
                     }
                 }
-                console.log('Query variable %s not found', variable);
             }
             let result = getQueryVariable(name);
             return result && decodeURIComponent(result);
@@ -499,8 +498,6 @@ export default {
             if(this.addMineInput.length){
                 selectedItems = selectedItems.concat(this.addMineInput)
             }
-            console.log('========')
-            console.log(selectedItems)
 
             // this.props.updateSelPar(selectedItems);
             this.$emit('getSelectId',selectedItems)
@@ -523,7 +520,6 @@ export default {
                 }
                 for(let item1 of arr[item].listData){
                     if(haveDefault){
-                        console.log('进入')
                         if(!item1.isSelect){
                             this.$set(item1,'isSelect',false)
                         }
